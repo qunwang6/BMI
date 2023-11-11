@@ -3,19 +3,20 @@ const { h: e } = window.App
   , p = [{
     upper: 999,
     lower: 30,
-    name: "This body weight classification is recommended by the World Health Organization (WHO)."
+    name: `Source of information:  World Health Organisation(WHO)`
+
   }, {
     upper: 29.9,
     lower: 25,
-    name: "This body weight classification is recommended by the World Health Organization (WHO)."
+    name: `Source of information:  World Health Organisation(WHO)`
   }, {
     upper: 24.9,
     lower: 18.5,
-    name: "This body weight classification is recommended by the World Health Organization (WHO)."
+    name: `Source of information:  World Health Organisation(WHO)`
   }, {
     upper: 18.4,
     lower: 0,
-    name: "This body weight classification is recommended by the World Health Organization (WHO)."
+    name: `Source of information:  World Health Organisation(WHO)`
   }]
   , r = (e, p) => e / Math.pow(p / 100, 2)
   , o = e => p.find(({ upper: p, lower: r }) => e <= p && e >= r)
