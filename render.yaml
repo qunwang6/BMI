@@ -1,7 +1,7 @@
 services:
   # A static site
   - type: web
-    name: my-blog
+    name: bmitest
     runtime: static
     buildCommand: yarn build
     staticPublishPath: ./build
