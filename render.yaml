@@ -4,7 +4,7 @@ services:
     name: bmitest
     runtime: static
     buildCommand: 
-    staticPublishPath: ./
+    staticPublishPath: .
     pullRequestPreviewsEnabled: true # Enable service previews
     buildFilter:
       paths:
